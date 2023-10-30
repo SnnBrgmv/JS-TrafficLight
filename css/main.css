@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div.traffic-light{
+    width: 6%;
+    height: 35vh;
+    background-color: #333233;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+div.traffic-light div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.red{
+    background-color: rgba(255, 0, 0, .5);
+}
+.yellow{
+    background-color: rgba(255, 255, 0, .5);
+}
+.green{
+    background-color: rgba(0, 128, 0, .5);
+}
